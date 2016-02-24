@@ -55,7 +55,7 @@ namespace ES.SendMail
 
         private static void SendMailToUser(string accessToken, string email)
         {
-            var mailMarkup = @"<h1>A mail with an embedded image <img src='cid:thumbsUp' alt='Thumbs up' /> <img src='https://cdn2.iconfinder.com/data/icons/hawcons-gesture-stroke/32/icon_3_high_five-24.png' alt='High five' /></h1>";
+            var mailMarkup = @"<h1>A mail with an embedded image <img src='cid:thumbsUp' alt='Thumbs up' /></h1>";
             var contentBytes = "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADLUlEQVRIS7XVQWhcRRgH8P/3zW6zoQ3Rgl40FnWx0pps3nuz2wYRc1DMwYooVKj1IBrQXqSH4kEQPVgEvQgqLIhYKG3BU6kg2IILBhEy8/YlelCbmoIpVCpCgrqa3fk+edItS6HNardznfn+v3nvfW+G0OeI43hWVd9m5gDgLe/9e/2UUj+LqtXqWKfTWTbGNFS1BeBxAIe89+9uVN8v8IiInAbwkPd+zlp7QlWf7HQ69y4sLFy4HtIXYK19QVU/AlD23p+LomgbMy+r6qtpmr5zw0CSJEdFZKbZbN4OQPLAycnJc0T0TbPZfPaGgEqlcgczn2XmI977l7thURQtGmPOOuee/t/A9PR0aXV19XMANVXdmWXZ+W5YkiTLRDTnnHtuI4CttXtFZDszk6oGETljjAmq+iGAiIj2O+eO94SPAvgthPB1oVA4pap/A1hX1b+I6HcRWRkdHZ1vNBodSpLkAwAHrtqFAiARuUhEs2maftY7H8fxM0R04no7DyH8RER7KIqiP5n5mPf+xbygXC4PjYyMZMz8Sbvdfn9xcfGPjXodACdJYtrt9qbh4eEt6+vrDwCoq+qv+RMoEb3pnHujGxTHcSNN0+k+gq+5JEmSwyJy6KYAU1NTW1ut1kljzJ0DBay19bxZRGTMGHMPgNcHCnTf1+XvuMLMJ28KkCRJEcAlETk2MKBWq90tIttEhJl5v6o+z8yPDgyI43iGmXer6mYROWCMcc65hwcG9PartfZMp9PZkmXZ7oEDExMTm4vF4gUR+bTZbM5eAQAcV9U9pVKp3mq1Tv2XHy2Koh3GmL0AiiGEGQAVItqVpqm/AoiIBfAjEa2o6hNra2uPLS0t5YfYhmN8fPzWoaGhiojcR0R1IjrsnHstL+wFPDPnF/tBIvpYVceI6LSIfCUic71H9bVEa+12Vf2eiF5yztW7wA8hhIIx5ihRflprSUReYeafAdwG4JZ8oYj8QkTfqup5Zr5EROu9kIgUiOgpAHcxc3l+fv7iv4C1thZCOMLM918OCkT0hYjsy7JstVqt7gghPAhgl4jsJKL8Pt4KYNNVQGDm7wAc9N5/2Z37B3CL0ZrdDw2kAAAAAElFTkSuQmCC";
             var contentType = "image/png";
 
